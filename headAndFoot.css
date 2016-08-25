@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Comfortaa-b";
+  src: url("Comfortaa-Bold.ttf"); }
+@font-face {
+  font-family: "Comfortaa-r";
+  src: url("Comfortaa-Regular.ttf"); }
+@font-face {
+  font-family: "Comfortaa-l";
+  src: url("Comfortaa-Light.ttf"); }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+nav, footer {
+  font-family: "Comfortaa-b"; }
+
+body {
+  background: #e8b5d9; }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background: #db0f27;
+  font-size: 15px; }
+  nav img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4.5em;
+    margin-right: auto;
+    margin-left: 15px; }
+  nav a {
+    -webkit-filter: drop-shadow(0px 2px 1px #820211);
+    background: #fc3048;
+    color: white;
+    height: 4.5em;
+    width: 13ch;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    position: relative; }
+    nav a::before {
+      z-index: -1;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 2.7em;
+      height: 0;
+      width: 0;
+      pointer-events: none;
+      border-top: 2.25em solid #fc3048;
+      border-bottom: 2.25em solid transparent;
+      border-right: 6.5ch solid #fc3048;
+      border-left: 6.5ch solid #fc3048; }
+  /* For the selected page's tab */
+  nav a.selected { 
+    background-color: #00adff;
+    -webkit-filter: drop-shadow(0px 2px 1px #004566); }
+    nav a.selected::before {
+      top: 4.5em;
+      border-color: #00adff;
+      border-bottom-color: transparent; }
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: #db0f27;
+  width: 100%;
+  padding: 2px;
+  color: white; }
