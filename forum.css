@@ -1,0 +1,85 @@
+	.textbox { 
+    	border: 1px solid #848484; 
+        -webkit-border-radius: 30px; 
+        -moz-border-radius: 30px; 
+    	border-radius: 30px;  
+    	height:25px; 
+    	width: 400px; 
+    	padding-left:10px; 
+    	padding-right:10px;
+    	margin-left: 410px; 
+    	margin-top: 10px;
+  } 
+  .button
+  {
+  	border-radius: 8px 8px 8px 8px;
+  	border: 1px solid #3866A3;
+  	padding: 9px 18px;
+  }
+  #div1
+  {
+  	margin-top: 45px;
+  	margin-bottom: 10px;
+  	background: #FF00FF;
+  }
+  #div2,#div3,.imgcontainer
+  {
+  	margin-left: 150px;
+  	margin-right: 150px;
+  	margin-top: 10px;
+  	box-shadow: 10px 10px 10px 0px #C2C2C2;
+	background-color: #F5F5F5;
+  }
+  .avatar
+  {
+  	margin-left: 20px;
+  	margin-right: 20px; 
+  	width: 5%;
+    border-radius: 50%;
+  }
+  p,li
+  {
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	font-family: "Comfortaa-l";
+  	font-size: 17px;
+  }
+  .user
+  {
+  	padding: 20px;
+  	margin-top: 10px;
+  	margin-top: 10px;
+  }
+  .answer
+  {
+  	margin-left: 90px;
+  	margin-right: 90px;
+  }
+  textarea
+  {
+  	width: 85%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-left: 80px;
+   }
+   .like
+   {
+    margin-left: 50px;
+   }
+    .categories
+    {
+      font-size: 20px;
+      font-family: "Comfortaa-b";
+      padding-left: 20px;
+      margin: 2px auto auto auto;
+    }
+    #ab
+    {
+      color: blue;
+      text-decoration: none;
+    }
