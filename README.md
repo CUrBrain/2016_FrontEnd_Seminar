@@ -6,10 +6,10 @@
 
 [ **Make branches while trying some of these stuff** ]
 
-- [] Fix the links in the nav bar
-- [] check if alt present for all images
-- [] Make the head tag content more or less uniform throughout all html files
-- [] Make the sytles consistent for all pages(fonts, font-sizes, etc.)
-- [] Test across various browsers.
+- [ ] Fix the links in the nav bar
+- [ ] check if alt present for all images
+- [ ] Make the head tag content more or less uniform throughout all html files
+- [ ] Make the sytles consistent for all pages(fonts, font-sizes, etc.)
+- [ ] Test across various browsers.
 
-- [] *Change the color scheme* ??
+- [ ] *Change the color scheme* ??
