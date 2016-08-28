@@ -8,7 +8,7 @@
 
 - [ ] Fix the links in the nav bar
 - [x] check if alt present for all images
-- [ ] Make the head tag content more or less uniform throughout all html files
+- [x] Make the head tag content more or less uniform throughout all html files
 - [ ] Make the sytles consistent for all pages(fonts, font-sizes, etc.)
 - [ ] Test across various browsers.
 
